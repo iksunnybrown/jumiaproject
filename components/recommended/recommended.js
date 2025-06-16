@@ -3,7 +3,7 @@ import React from "react";
 export default function Recommended() {
   return (
     <div className="pt-5">
-      <div className="relative">
+      <div className="relative text-black">
         <div className="carousel carousel-center w-full bg-white shadow-lg">
           {/* Slide 1 */}
           <div className="carousel-item flex flex-col w-[150px] md:w-[200px]">

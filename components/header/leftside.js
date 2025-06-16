@@ -1,10 +1,22 @@
-"use client"
+"use client";
 
-import { useState } from "react"
-import { ChevronRight, Smartphone, Laptop, Tv, Checkroom, CardGiftcard, Home, DirectionsCar, ChildCare, SportsEsports, Apple } from "@mui/icons-material"
+import { useState } from "react";
+import {
+  ChevronRight,
+  Smartphone,
+  Laptop,
+  Tv,
+  Checkroom,
+  CardGiftcard,
+  Home,
+  DirectionsCar,
+  ChildCare,
+  SportsEsports,
+  Apple,
+} from "@mui/icons-material";
 
 export default function Leftside() {
-  const [activeCategoryIndex, setActiveCategoryIndex] = useState(null)
+  const [activeCategoryIndex, setActiveCategoryIndex] = useState(null);
 
   const categories = [
     {
@@ -17,23 +29,53 @@ export default function Leftside() {
         },
         {
           title: "Tablets",
-          items: ["iPads", "Samsung Tablets", "Lenovo Tablets", "Huawei Tablets"],
+          items: [
+            "iPads",
+            "Samsung Tablets",
+            "Lenovo Tablets",
+            "Huawei Tablets",
+          ],
         },
         {
           title: "Accessories",
-          items: ["Phone Cases", "Screen Protectors", "Chargers", "Power Banks", "Memory Cards"],
+          items: [
+            "Phone Cases",
+            "Screen Protectors",
+            "Chargers",
+            "Power Banks",
+            "Memory Cards",
+          ],
         },
         {
           title: "Top Phone Brands",
-          items: ["iPhones", "Samsung", "Xiaomi", "Tecno", "Infinix", "OPPO", "Realme"],
+          items: [
+            "iPhones",
+            "Samsung",
+            "Xiaomi",
+            "Tecno",
+            "Infinix",
+            "OPPO",
+            "Realme",
+          ],
         },
         {
           title: "Top SmartPhone",
-          items: ["iPads", "Samsung Tablets", "Lenovo Tablets", "Huawei Tablets"],
+          items: [
+            "iPads",
+            "Samsung Tablets",
+            "Lenovo Tablets",
+            "Huawei Tablets",
+          ],
         },
         {
           title: "Mobile Accessories",
-          items: ["Phone Cases", "Screen Protectors", "Chargers", "Power Banks", "Memory Cards"],
+          items: [
+            "Phone Cases",
+            "Screen Protectors",
+            "Chargers",
+            "Power Banks",
+            "Memory Cards",
+          ],
         },
       ],
     },
@@ -43,7 +85,12 @@ export default function Leftside() {
       subcategories: [
         {
           title: "Laptops",
-          items: ["MacBooks", "Windows Laptops", "Gaming Laptops", "2-in-1 Laptops"],
+          items: [
+            "MacBooks",
+            "Windows Laptops",
+            "Gaming Laptops",
+            "2-in-1 Laptops",
+          ],
         },
         {
           title: "Desktops",
@@ -51,11 +98,24 @@ export default function Leftside() {
         },
         {
           title: "Computer Accessories",
-          items: ["Keyboards", "Mice", "Webcams", "Headsets", "External Storage","Keyboards", "Mice",],
+          items: [
+            "Keyboards",
+            "Mice",
+            "Webcams",
+            "Headsets",
+            "External Storage",
+            "Keyboards",
+            "Mice",
+          ],
         },
         {
           title: "Printer",
-          items: ["MacBooks", "Windows Laptops", "Gaming Laptops", "2-in-1 Laptops"],
+          items: [
+            "MacBooks",
+            "Windows Laptops",
+            "Gaming Laptops",
+            "2-in-1 Laptops",
+          ],
         },
         {
           title: "Computer Brands",
@@ -63,7 +123,13 @@ export default function Leftside() {
         },
         {
           title: "Data Storage",
-          items: ["Keyboards", "Mice", "Webcams", "Headsets", "External Storage"],
+          items: [
+            "Keyboards",
+            "Mice",
+            "Webcams",
+            "Headsets",
+            "External Storage",
+          ],
         },
       ],
     },
@@ -73,27 +139,62 @@ export default function Leftside() {
       subcategories: [
         {
           title: "Televisions",
-          items: ["Smart TVs", "LED TVs", "OLED TVs", "4K TVs","LED TVs", "OLED TVs"],
+          items: [
+            "Smart TVs",
+            "LED TVs",
+            "OLED TVs",
+            "4K TVs",
+            "LED TVs",
+            "OLED TVs",
+          ],
         },
         {
           title: "Audio",
-          items: ["Speakers", "Headphones", "Home Theater Systems", "Home Theater Systems"],
+          items: [
+            "Speakers",
+            "Headphones",
+            "Home Theater Systems",
+            "Home Theater Systems",
+          ],
         },
         {
           title: "Cameras",
-          items: ["Digital Cameras", "DSLR Cameras", "Action Cameras", "DSLR Cameras"],
+          items: [
+            "Digital Cameras",
+            "DSLR Cameras",
+            "Action Cameras",
+            "DSLR Cameras",
+          ],
         },
         {
           title: "Televisions",
-          items: ["Smart TVs", "LED TVs", "OLED TVs", "4K TVs","LED TVs", "OLED TVs"],
+          items: [
+            "Smart TVs",
+            "LED TVs",
+            "OLED TVs",
+            "4K TVs",
+            "LED TVs",
+            "OLED TVs",
+          ],
         },
         {
           title: "Audio",
-          items: ["Speakers", "Headphones", "Home Theater Systems", "Home Theater Systems"],
+          items: [
+            "Speakers",
+            "Headphones",
+            "Home Theater Systems",
+            "Home Theater Systems",
+          ],
         },
         {
           title: "Cameras",
-          items: ["Digital Cameras", "DSLR Cameras", "Action Cameras", "DSLR Cameras", "Action Cameras"],
+          items: [
+            "Digital Cameras",
+            "DSLR Cameras",
+            "Action Cameras",
+            "DSLR Cameras",
+            "Action Cameras",
+          ],
         },
       ],
     },
@@ -115,7 +216,14 @@ export default function Leftside() {
         },
         {
           title: "Men's Fashion",
-          items: ["Clothing", "Shoes", "Watches", "Accessories", "Shoes", "Accessories"],
+          items: [
+            "Clothing",
+            "Shoes",
+            "Watches",
+            "Accessories",
+            "Shoes",
+            "Accessories",
+          ],
         },
         {
           title: "Women's Fashion",
@@ -123,7 +231,15 @@ export default function Leftside() {
         },
         {
           title: "Kid's Fashion",
-          items: ["Boy's Clothing", "Girl's Clothing", "Shoes", "Accessories", "Shoes", "Accessories", "Shoes"],
+          items: [
+            "Boy's Clothing",
+            "Girl's Clothing",
+            "Shoes",
+            "Accessories",
+            "Shoes",
+            "Accessories",
+            "Shoes",
+          ],
         },
       ],
     },
@@ -149,7 +265,16 @@ export default function Leftside() {
         },
         {
           title: "Beverages",
-          items: ["Coffee", "Tea", "Juices", "Soft Drinks", "Tea", "Juices", "Soft Drinks", "Tea"],
+          items: [
+            "Coffee",
+            "Tea",
+            "Juices",
+            "Soft Drinks",
+            "Tea",
+            "Juices",
+            "Soft Drinks",
+            "Tea",
+          ],
         },
         {
           title: "Household Supplies",
@@ -163,19 +288,46 @@ export default function Leftside() {
       subcategories: [
         {
           title: "Home & Kitchen",
-          items: ["Kitchen Appliances", "Furniture", "Bedding", "Decor","Bath","Wall Art","Small Appliances"],
+          items: [
+            "Kitchen Appliances",
+            "Furniture",
+            "Bedding",
+            "Decor",
+            "Bath",
+            "Wall Art",
+            "Small Appliances",
+          ],
         },
         {
           title: "Office Products",
-          items: ["Office Furniture", "Office Electronics", "Stationery","Bakeware","Vacuums & Floor Care"],
+          items: [
+            "Office Furniture",
+            "Office Electronics",
+            "Stationery",
+            "Bakeware",
+            "Vacuums & Floor Care",
+          ],
         },
         {
           title: "Outdoor & Garden",
-          items: ["Office Furniture", "Office Electronics", "Stationery","Cookware","Cutlery & Knife Accessories","Cutlery & Knife Accessories"],
+          items: [
+            "Office Furniture",
+            "Office Electronics",
+            "Stationery",
+            "Cookware",
+            "Cutlery & Knife Accessories",
+            "Cutlery & Knife Accessories",
+          ],
         },
         {
           title: "Home & Kitchen",
-          items: ["Kitchen Appliances", "Furniture", "Bedding", "Decor", "Bedding"],
+          items: [
+            "Kitchen Appliances",
+            "Furniture",
+            "Bedding",
+            "Decor",
+            "Bedding",
+          ],
         },
         {
           title: "Office Products",
@@ -197,11 +349,23 @@ export default function Leftside() {
         },
         {
           title: "Car Accessories",
-          items: ["Interior Accessories", "Exterior Accessories", "Car Care","Holding Bar", "Structured Lorry"],
+          items: [
+            "Interior Accessories",
+            "Exterior Accessories",
+            "Car Care",
+            "Holding Bar",
+            "Structured Lorry",
+          ],
         },
         {
           title: "Motorcycle Accessories",
-          items: ["Helmets", "Gloves", "Motorcycle Parts","Amplifiers & Effects","Gloves"],
+          items: [
+            "Helmets",
+            "Gloves",
+            "Motorcycle Parts",
+            "Amplifiers & Effects",
+            "Gloves",
+          ],
         },
         {
           title: "Car Accessories",
@@ -209,11 +373,25 @@ export default function Leftside() {
         },
         {
           title: "Truck Accessories",
-          items: ["Interior Accessories", "Exterior Accessories", "Car Care","Holding Bar", "Structured Lorry","Bus Inducer","Silencer"],
+          items: [
+            "Interior Accessories",
+            "Exterior Accessories",
+            "Car Care",
+            "Holding Bar",
+            "Structured Lorry",
+            "Bus Inducer",
+            "Silencer",
+          ],
         },
         {
           title: "Eelectronic Car Accessories",
-          items: ["Helmets", "Gloves", "Motorcycle Parts","Amplifiers & Effects","Gloves"],
+          items: [
+            "Helmets",
+            "Gloves",
+            "Motorcycle Parts",
+            "Amplifiers & Effects",
+            "Gloves",
+          ],
         },
       ],
     },
@@ -227,7 +405,15 @@ export default function Leftside() {
         },
         {
           title: "Baby Runner",
-          items: ["Diapers", "Wipes", "Baby Food", "Feeding","Pampers","Towels","Baby walkers"],
+          items: [
+            "Diapers",
+            "Wipes",
+            "Baby Food",
+            "Feeding",
+            "Pampers",
+            "Towels",
+            "Baby walkers",
+          ],
         },
         {
           title: "Baby Gear",
@@ -239,7 +425,7 @@ export default function Leftside() {
         },
         {
           title: "Baby Seaters",
-          items: ["Diapers", "Wipes", "Baby Food", "Feeding","Pampers",],
+          items: ["Diapers", "Wipes", "Baby Food", "Feeding", "Pampers"],
         },
         {
           title: "Baby Gear",
@@ -273,7 +459,17 @@ export default function Leftside() {
         },
         {
           title: "Accessories",
-          items: ["Controllers", "Headsets", "Gaming Chairs", "Gaming Chairs", "Gaming Chairs", "Gaming Chairs","Controllers", "Headsets", "Gaming Chairs"],
+          items: [
+            "Controllers",
+            "Headsets",
+            "Gaming Chairs",
+            "Gaming Chairs",
+            "Gaming Chairs",
+            "Gaming Chairs",
+            "Controllers",
+            "Headsets",
+            "Gaming Chairs",
+          ],
         },
       ],
     },
@@ -287,16 +483,18 @@ export default function Leftside() {
         },
       ],
     },
-  ]
+  ];
 
   return (
     <div className="bg-white rounded-md shadow-sm hidden md:inline md:w-[40%] lg:w-[20%]">
-      <div className="relative">
+      <div className="relative text-black">
         <ul className="py-2">
           {categories.map((category, index) => (
             <li
               key={index}
-              className={`text-sm hover:bg-gray-100 cursor-pointer ${activeCategoryIndex === index ? "bg-gray-100" : ""}`}
+              className={`text-sm hover:bg-gray-100 cursor-pointer ${
+                activeCategoryIndex === index ? "bg-gray-100" : ""
+              }`}
               onMouseEnter={() => setActiveCategoryIndex(index)}
               onMouseLeave={() => setActiveCategoryIndex(null)}
             >
@@ -314,11 +512,16 @@ export default function Leftside() {
                   <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
                     {category.subcategories.map((subcategory, subIndex) => (
                       <div key={subIndex}>
-                        <h3 className="font-semibold text-sm mb-2">{subcategory.title}</h3>
+                        <h3 className="font-semibold text-sm mb-2">
+                          {subcategory.title}
+                        </h3>
                         <ul className="space-y-1">
                           {subcategory.items.map((item, itemIndex) => (
                             <li key={itemIndex}>
-                              <a href="#" className="text-xs hover:text-orange-500">
+                              <a
+                                href="#"
+                                className="text-xs hover:text-orange-500"
+                              >
                                 {item}
                               </a>
                             </li>
@@ -334,5 +537,5 @@ export default function Leftside() {
         </ul>
       </div>
     </div>
-  )
+  );
 }
